@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-var port = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 const HomeRouter= require('./routers/Home.router')
 app.use(express.static('./client/views/'));
 app.use(express.static('./client/'));
