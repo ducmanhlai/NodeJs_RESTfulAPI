@@ -1,4 +1,8 @@
 "scripts": {
-  "start": "cd server && nodemon index.js",
+  "cd": "cd server",
+  "start": "nodemon index.js",
   "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
 }
+"engines": {
+    "node": "14.x"
+  }
