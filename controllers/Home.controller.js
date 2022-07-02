@@ -1,7 +1,7 @@
 var express = require('express');
  class HomeController {
-    home(req,res,nexr){
-        res.render('index.html');
+    home(req,res,next){
+        res.render('home');
     }
 }
 module.exports= new HomeController;
