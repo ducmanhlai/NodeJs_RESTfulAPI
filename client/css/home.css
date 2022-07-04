@@ -1,3 +1,9 @@
-:root{
-    color: aliceblue;
+.header{
+    background-color: #212529; 
+}
+.nav-item{
+    margin: 0 15px 0;
+}
+.block-item-header{
+    padding: 0 10% 0;
 }
