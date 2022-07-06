@@ -3,10 +3,11 @@ const app = express();
 var exphbs = require('express-handlebars');
 var port = process.env.PORT || 3000;
 var route = require('./routers');
-//var mongodb = require('./services/connect_MDB');
+var mongodb = require('./services/connect_MDB');
 var hand = exphbs.create({
     extname: 'hbs'
     });
+app.use(express.json());
 app.engine('hbs',hand.engine)
 app.set('view engine', 'hbs');
 app.set('views','./client/views')

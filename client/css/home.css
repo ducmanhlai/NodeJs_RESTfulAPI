@@ -7,3 +7,12 @@
 .block-item-header{
     padding: 0 10% 0;
 }
+.header-gioitinh{
+    margin-right: 10px;
+}
+.vertical-dash{
+    background-color: aliceblue;
+    height: 15px;
+    width: 2px;
+    margin: 2px 0px 0px 5px;
+}
